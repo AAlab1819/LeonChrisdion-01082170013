@@ -30,3 +30,13 @@ greater than the denominator,we need to devide the input by two, adn set the dev
 In the loop we need to find the  numerator by subtrack the input with the denominator. After we find it we ned too check whether the 
 gcd of the numerator and the denominator is equal to 1 or not. We need to check the gcd because we need to find the irreducable fraction.
 If the numerator  is equal to 1, it will outuput the denominator and the nominator of the fraction, and the the loop would be break.
+
+
+**988A-24 Divide Team**
+
+[[**problem**]](http://codeforces.com/contest/988/problem/A)  [[**answer**]](codeforces.com/contest/988/submission/42498156)
+
+In this problemset, we need to find that the student could be devided into team or not. The student can be divided if in the input the students don't have any distinct ratings.
+In the code we need to use vector to save the number of array.
+In the first for statement we use scores.input to check make a checker that will used in the next statement.
+It is written that if scores.size()<k it will output "NO", in this line the code will check whter the size of the score is less then the amount of the member in the team or not. If it was less then k , it will ouput "NO". If the result is larger, it will push the data to the result vector and will be ouput.
