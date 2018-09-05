@@ -2,6 +2,7 @@
 # Week 1
 http://codeforces.com/submissions/chrisdionleon80
 
+854A
 In this problemset, it's written that we need to find a fraction, the sum of the fraction 
 numerator and the denominator should be  equal to the input integer, and the fraction must be 
 irreducible . The numerator must be smaller than the denominator but we need to find the largest numerator 
