@@ -1,6 +1,7 @@
-#WEEK 2
+# WEEK 2
 
-291A-12  Spyke Talks
+# 291A-12  Spyke Talks
+[[**problem**]](http://codeforces.com/contest/291/problem/A) [[**answer**]](http://codeforces.com/contest/291/submission/42788974)
 
 
 In this problemset we need to help Polycarpus to analyze the input data and find out the number of pairs of secretaries that are taling.
