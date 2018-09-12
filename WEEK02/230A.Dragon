@@ -1,0 +1,68 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+
+
+void sorting(int arr[], int ar[], int n)//gnomesort
+{
+    int index = 0;
+
+    while (index < n) {
+        if (index == 0)
+            index++;
+        if (arr[index] >= arr[index - 1])
+            index++;
+        else {
+            swap(arr[index], arr[index - 1]);
+            swap(ar[index], ar[index-1]);
+            index--;
+        }
+    }
+    return;
+}
+int main()
+{
+    int power, number;
+    cin>>power>>number;
+
+    int counter=0;
+    int powerk[number], powerd[number];
+    for(int i=0; i<number; i++)
+    {
+        cin>>powerk[i]>>powerd[i];
+    }
+    sorting(powerk, powerd, number);
+    for( int i=0; i<number; i++)
+    {
+
+        if(power>powerk[i]&&i==0)
+        {
+        counter+=power+powerd[i];
+            //cout<<"k"<<power<<"d"<<powerk[i]<<endl;
+
+        }
+        else if ( counter>powerk[i])
+        {
+            counter+=powerd[i];
+            //cout<<"k"<<counter<<"d"<<powerk[i]<<endl;
+        }
+        else if( counter<powerk[i])
+        {
+            counter=0;
+            //cout<<"k"<<counter<<"d"<<powerk[i]<<endl;
+            break;
+        }
+        else if (counter==powerk[i])
+        {
+            counter=0;
+            break;
+        }
+
+    }
+    if( counter>0)
+        cout<<"YES"<<endl;
+    else
+        cout<<"NO"<<endl;
+
+    return 0;
+}
