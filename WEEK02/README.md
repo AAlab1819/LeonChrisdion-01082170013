@@ -23,6 +23,11 @@ In this problemset we need to find that Kirito can defeat all the dragons that w
 
 In the code I'm using the shellsort to sort the powr of the dragon that he will deal from the dragon with the lowest power to the hightest power of the dragon. After the dragons power sorted, we need to make a looping statement with some if else statement in it. In the first statement it's used to check if the earliest kirito power is higher than the dragon power. In the second satement it's used to check if the Kirito's after added by the previous additional power is higher than the next level dragon power or not. If the power is higher, the current Kirito's power will be added by the additional power, but if the kirito's power is less than the dragon power the loop will be broken, because it means Kirito's lose and it will make the counter into 0 and ouput "NO", but if the loop always continue until the loop end, it will output "YES".
 
-#
+# 768A-78 Oath of the Night's Watch
 
+[[**problem**]](http://codeforces.com/problemset/problem/768/A) [[**answer**]](http://codeforces.com/problemset/submission/768/42800007)
+
+In this problemset we need to output the amount of how many support that can ben done by the Jon Snow. In the first line we need to input the amount of number that we want to input. In the second line we will input the strength of support. 
+
+In the code I'm using combsort to solve the problem. After the input sorted we need to check if Jon snow has enough support strength or not, The number of counter will be increased by 1 if the current index number is greater than the previous index number, and less than the next index number.
 
