@@ -1,18 +1,1 @@
-#include<bits/stdc++.h>
-using namespace std;
-int main()
-{
-    int input, denominator;
-    cin>>input;
-    for(int numerator=input/2;numerator>0;numerator--)
-    {
-        denominator= input-numerator;
-        /*cout<<penyebut<<" "<<__gcd(pembilang, penyebut)<<endl;*/
-        if(__gcd(denominator, numerator)==1)
-        {
-            cout<<numerator<<" "<<denominator;
-            break;
-        }
-    }
-    return 0;
-}
+
