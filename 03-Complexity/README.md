@@ -18,3 +18,7 @@ Complexity:
 
 Average case: O(n^2)
 Best case: O(log n)
+
+# B.Vanya and Lanterns
+[[**problem**]] (http://codeforces.com/problemset/problem/492/B#) [[**answer**]](http://codeforces.com/problemset/submission/492/43040273)
+
