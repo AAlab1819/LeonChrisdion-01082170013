@@ -3,6 +3,11 @@
 # A.Insomnia Cure
 [[**problem**]](http://codeforces.com/contest/148/problem/A) [[**answer**]](http://codeforces.com/contest/148/submission/43018784)
 
+In this problem we need to find how many dragon was harmed, there are 4 way to harm the dragon k for punch, l for got the dragon tail shut into the balcony, m for got the dragon paws trampled with sharp heels, and n for threatened every  dragon to call her mom.
+
+Complexity: 
+Average case :O(n)
+Best case: O(1)
 
 # A.I Wanna Be The Guy
 [[**problem**]](http://codeforces.com/contest/469/problem/A) [[**answer**]](http://codeforces.com/contest/469/submission/43018126)
@@ -20,5 +25,6 @@ Average case: O(n^2)
 Best case: O(log n)
 
 # B.Vanya and Lanterns
-[[**problem**]] (http://codeforces.com/problemset/problem/492/B#) [[**answer**]](http://codeforces.com/problemset/submission/492/43040273)
+[[**problem**]](http://codeforces.com/problemset/problem/492/B) [[**answer**]](http://codeforces.com/problemset/submission/492/43040273)
 
+In this problem we need to find the  miniumum radius of the lantern light to light the whole street 
