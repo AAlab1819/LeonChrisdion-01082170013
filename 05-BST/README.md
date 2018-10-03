@@ -9,7 +9,8 @@ of the company. In the input, it will be at least one manager in it. When divide
 Complexity worst case: O(n^2)
 
 # B.Christmast Spurce
-[[**problem**]](http://codeforces.com/problemset/problem/913/B)[[**answer**]]
+[[**problem**]](http://codeforces.com/problemset/problem/913/B)[[**answer**]](http://codeforces.com/contest/913/submission/43726212)
+
 
 # C. Registration System
 [[**problem**]](http://codeforces.com/problemset/problem/4/C)[[**answer**]](http://codeforces.com/contest/4/submission/43693838)
