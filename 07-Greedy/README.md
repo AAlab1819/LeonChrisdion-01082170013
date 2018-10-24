@@ -10,3 +10,8 @@ Complexity: O(n)
 In this problem we need to find how many numbers were removed. The number would be removed if in the text contains more than 2 'x'. For example, if the input is 'xxxx' the output will 2 because 2 'x' were removed.
 Complexity:O(n)
 
+# 731B. Coupons and Discount
+[[problem]](http://codeforces.com/problemset/problem/731/B) [[answer]]
+In this problem we need to find either Sereja buy any extra pizza or not. If Sereja doesn't buy any extra pizza just ouput "YES", but if she buy extra pizza print "NO". We could know Sereja buy any extra pizza by find the modulus of the total pizza that she bought. If she only use the coupon, the total pizza is the multiplication of 2. 
+Complexity: O(n)
+
