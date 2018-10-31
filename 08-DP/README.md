@@ -1,6 +1,6 @@
-**WEEK8-DP
-
-**433B: Kuriyama Mirai's Stones
+# WEEK8-DP
+-
+# 433B: Kuriyama Mirai's Stones
 [[problem]](http://codeforces.com/problemset/problem/433/B)[[answer]](http://codeforces.com/contest/433/submission/45143981)
 
 Here we are given a list of stones, each with their own price. The questions possible is type one and two: type one will be sum of stone's cost from l to r and type two will be sum of stone's cost from l to r in an non-decreasing order.
@@ -18,10 +18,9 @@ The output we should give is the sum of numbers from l to r according its type.
 The solution given is to use cumulative array because if we count the sum in each question over and over the time limit will exceed. So, as what have been stated before, we store the cost in two cumulative array: for the normal one and sorted array. Then to get the sum from l to r, it will be array[r-1] - array[l-2]. Except if l=1, Then we just need to take array[r] cause it is the sum from 1 to r. 
 Complexity Worst Case: O(nlogn)
 
+-
 
-
-
-**913C: Party Lemonade
+# 913C: Party Lemonade
 [[problem]](http://codeforces.com/problemset/problem/913/C) [[answer]](http://codeforces.com/problemset/problem/913/C)
 
 The problem here is to find the cheapest cost to fullfill the lemonade liters needed. Where each bottle have different volume and cost, the volume of the i-th bottle will be 2i-1 liters. You can buy more than a bottle with the same volume. You can have more lemonade in liters than the required number. 
@@ -32,7 +31,6 @@ The solution here is first to store the cost for each type of bottle. Then, we w
 
 LITERS: 4
 COST  : 5
--
 LITERS: 8
 COST  : 17
 
